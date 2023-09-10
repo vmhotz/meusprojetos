@@ -1,0 +1,45 @@
+#cabecalho .titulo{
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#cabecalho .subtitulo{
+    background-color: bisque;
+    color: black;
+}
+
+section ul li a{
+    text-decoration: none;
+
+}
+
+section ul li{
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+
+p{
+    font-size: 25px;
+    color: rgb(34, 34, 65);
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line:underline;
+    font-weight: bold;
+    line-height: 2.2em;
+
+}
+
+table tr:nth-child(even){
+    background-color: antiquewhite;
+}
+
+table tr:nth-child(odd){
+    background-color: aqua;
+}
+
+table thead th{
+    background-color: rgb(128, 105, 150);
+}

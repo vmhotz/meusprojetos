@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de viagem</title>
+</head>
+<body>
+    <form method="get" action="">
+        <fieldset>
+            <legend>Dados cadastrais</legend>
+            <label>Nome</label><br>
+                <input type="text" name="nome"><br>
+            <label>Email</label><br>
+                <input type="email" required name="email">
+        </fieldset> <br>
+
+        <fieldset>
+            <legend>Serviços desejados</legend>
+            <input type="checkbox" name="passagens" value="passagens">Compra de passagens<br>
+            <input type="checkbox" name="reserva" value="reserva">Reserva de hospedagem<br>
+            <input type="checkbox" name="veiculos" value="veiculos">Aluguel de veículos
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Formas de pagamento</legend>
+            <input type="radio" name="formadePagamento" value="cartãocrédito">Cartão de crédito
+            <input type="radio" name="formadePagamento" value="boleto">Boleto
+            <input type="radio" name="formadePagamento" value="Pix">Pix
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Prazo de pagamento</legend>
+            <select name="prazodePagamento">
+                <option value="" selected>-</option>
+                <option value="àvsita">À vista</option>
+                <option value="5x">5x - sem juros</option>
+                <option value="10x">10x - com juros</option>
+            </select>
+        </fieldset><br>
+
+        <input type="button" name="Submit" value="Submit">
+
+
+    </form>
+</body>
+</html>
